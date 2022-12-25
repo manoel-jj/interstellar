@@ -1,0 +1,13 @@
+@use 'variaveis';
+
+.footer {
+    color: variaveis.$corTexto;
+    background-image: url(../images/fundo-2.jpg);
+    text-align: center;
+    font-size: 12px;
+
+    @media (max-width: 768px) {
+        background-color: black;
+        font-size: 8px;
+    }
+}
