@@ -1,6 +1,8 @@
 
 .header {
     background-image: url(../images/fundo.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
     min-height: 100vh;
 
 
@@ -10,13 +12,11 @@
         background-repeat: no-repeat; 
     }
 
-    @media (min-width: 1280px) {
-        background-size: 100%;
-    }
 
-    @media (min-width: 820px) {
+
+    @media (max-width: 820px) {
         background-image: url(../images/fundo-tablet.jpg);
-        
+
     }
 
 }
